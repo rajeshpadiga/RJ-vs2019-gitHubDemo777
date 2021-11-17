@@ -33,6 +33,7 @@ namespace RJ_vs2019_gitHubDemo777
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("  <<<<Hello  SHIVAA!>>>");
                 });
             });
         }
